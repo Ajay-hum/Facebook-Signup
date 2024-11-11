@@ -1,0 +1,116 @@
+
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container>first-div{
+    display: flex;           /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;  
+}
+
+.first-div{
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+h2 + p {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > input {
+    width: 48%;
+}
+
+.input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dob, .gender {
+    margin: 20px 0;
+}
+
+.dob > p, .gender > p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.carl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carl > .input {
+    width: 32%;
+}
+
+.gender .carl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.para{
+    font-size: 13px;
+}
+
+.sign-up {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.sign-up:hover {
+    background-color: #36a420;
+}
+
+.already-account {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.already-account:hover {
+    text-decoration: underline;
+}
